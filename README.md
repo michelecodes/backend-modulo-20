@@ -5,19 +5,19 @@ Em Java, uma interface funcional é uma interface que possui apenas um método a
 
 ### Exemplo: 
       @FunctionalInterface
-public interface MinhaInterfaceFuncional {
-    void meuMetodoAbstrato();
-
-    // Outros métodos não abstratos (opcionais)
-    default void meuMetodoPadrao() {
-        System.out.println("Este é um método padrão.");
-    }
-
-    // Outros métodos não abstratos (opcionais)
-    static void meuMetodoEstatico() {
-        System.out.println("Este é um método estático.");
-    }
-}
+      public interface MinhaInterfaceFuncional {
+          void meuMetodoAbstrato();
+      
+          // Outros métodos não abstratos (opcionais)
+          default void meuMetodoPadrao() {
+              System.out.println("Este é um método padrão.");
+          }
+      
+          // Outros métodos não abstratos (opcionais)
+          static void meuMetodoEstatico() {
+              System.out.println("Este é um método estático.");
+          }
+      }
 
 Se remover a anotação @FunctionalInterface, o código ainda será válido desde que haja apenas um método abstrato na interface. No entanto, a anotação ajuda a documentar a intenção de que a interface é projetada para ser funcional.
 
