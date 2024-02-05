@@ -1,5 +1,5 @@
 # Módulo 20
-Conteudo de apoio:
+Conteudo de apoio: https://www.sensedia.com.br/post/interfaces-funcionais-com-java-8#:~:text=Interfaces%20funcionais%20são%20interfaces%20que,se%20automaticamente%20uma%20interface%20funcional.
 # Exercicio
 Em Java, uma interface funcional é uma interface que possui apenas um método abstrato. Interfaces funcionais são frequentemente utilizadas em programação funcional e são fundamentais para o funcionamento de expressões lambda e referências a métodos. Para identificar se uma interface é funcional, basta seguir as diretrizes da linguagem e usar a anotação @FunctionalInterface ou simplesmente garantir que haja apenas um método abstrato na interface. A anotação @FunctionalInterface não é obrigatória, mas ela ajuda a evitar erros, pois o compilador irá verificar se a interface atende aos requisitos.
 
